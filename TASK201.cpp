@@ -60,7 +60,7 @@ int main()
         cout << "x" << i+1 << ": " << x[i] << endl;
     }
 
-    float t = 11.0;
+    float t = 6.0;
     float vel = 0;
     for(int i=0;i<3;i++){
             float sum = 1;
@@ -70,5 +70,5 @@ int main()
         vel += sum*x[i];
     }
 
-    cout << vel << endl;
+    cout <<Â velÂ <<Â endl;
 }
